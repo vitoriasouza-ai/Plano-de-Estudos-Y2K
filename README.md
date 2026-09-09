@@ -61,11 +61,19 @@ Durante o desenvolvimento e redesign do projeto, pratiquei:
 Uma das principais propostas deste projeto foi transformar a interface original em uma experiência visual completamente diferente.
 
 ### Antes
-
+<img 
+  src="./screenshots/screen-capture-alura.png" 
+  alt="Tela principal do projeto Plano de Estudos com estética Y2K"
+  width="700"
+/>
 Interface original proposta no curso da Alura.
 
 ### Depois
-
+<img 
+  src="./screenshots/screen-capture-Y2K.png" 
+  alt="Tela principal do projeto Plano de Estudos com estética Y2K"
+  width="700"
+/>
 Uma nova identidade visual inspirada na estética Y2K, com uma paleta de cores em rosa e roxo, elementos retrô e janelas inspiradas em softwares dos anos 2000.
 
 ## 📊 Lighthouse
