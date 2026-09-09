@@ -66,6 +66,7 @@ Uma das principais propostas deste projeto foi transformar a interface original 
   alt="Tela principal do projeto Plano de Estudos com estética Y2K"
   width="700"
 />
+
 Interface original proposta no curso da Alura.
 
 ### Depois
@@ -74,6 +75,7 @@ Interface original proposta no curso da Alura.
   alt="Tela principal do projeto Plano de Estudos com estética Y2K"
   width="700"
 />
+
 Uma nova identidade visual inspirada na estética Y2K, com uma paleta de cores em rosa e roxo, elementos retrô e janelas inspiradas em softwares dos anos 2000.
 
 ## 📊 Lighthouse
