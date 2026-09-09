@@ -1,0 +1,29 @@
+@import "../../index.css";
+
+.text-input {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: var(--text);
+  border-radius: 18px;
+  border: 2px solid var(--purple);
+  width: 360px;
+  max-width: 90%;
+  padding: 12px;
+  text-align: center;
+  background-color: var(--card);
+  box-sizing: border-box;
+  outline: none;
+  font-family: "fredoka", sans-serif;
+  transition: 0.2s;
+}
+
+.text-input::placeholder {
+  color: var(--baby-pink);
+  text-shadow: 1px 1px 0 var(--silver);
+}
+
+.text-input:focus {
+  border-color: var(--pink);
+  box-shadow: 0 0 0 3px var(--light-pink);
+}

@@ -1,0 +1,63 @@
+::backdrop {
+  background-color: rgba(194, 24, 104, 0.6);
+}
+
+.dialog {
+  border: none;
+  padding: 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.dialog .body {
+  padding: 15px;
+  max-width: 472px;
+  background: var(--card);
+  border: 2px solid var(--purple);
+  border-radius: 0 0 12px 12px;
+  overflow: hidden;
+}
+.window-header {
+  max-width: 472px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px 0 16px;
+  background: var(--pink);
+  border: 2px solid var(--purple);
+  border-bottom: none;
+  border-radius: 12px 12px 0 0;
+}
+
+.window-header h2 {
+  color: var(--card);
+  font-weight: 400;
+  margin: 0;
+  text-shadow: 3px 3px 0 #a71965;
+}
+
+.btn-close-wrapper {
+  text-align: right;
+}
+
+.btn-close {
+  padding: 14px;
+  margin-right: 10px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 2px solid var(--purple);
+  border-radius: 5px;
+  color: var(--purple);
+  cursor: pointer;
+  box-shadow: 2px 2px 0 #a71965;
+}
+
+.btn-close:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #a71965;
+}

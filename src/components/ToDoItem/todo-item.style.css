@@ -1,0 +1,70 @@
+.todo-item {
+  font-family: "fredoka", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.todo-item .date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: var(--text);
+  margin: 0;
+  opacity: 0.9;
+}
+
+.todo-item .details {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.todo-item.completed .details {
+  text-decoration: line-through;
+}
+
+.todo-item .checkbox {
+  min-width: 24px;
+  min-height: 24px;
+  cursor: pointer;
+  accent-color: var(--blue);
+  margin: 0;
+}
+
+.todo-item .description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: var(--text);
+  flex-grow: 1;
+  margin: 0;
+}
+
+.todo-item .actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.todo-item .actions .btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+.todo-item .actions .btn:hover svg path {
+  fill: var(--purple);
+}
+
+.icon-pencil {
+  width: 24px;
+  height: 24px;
+  image-rendering: pixelated;
+}
+
+.icon-trash {
+  width: 24px;
+  height: 24px;
+  image-rendering: pixelated;
+}

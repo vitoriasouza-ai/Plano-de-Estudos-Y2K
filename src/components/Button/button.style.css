@@ -1,0 +1,20 @@
+.btn-save {
+  display: block;
+  margin: 16px auto 0;
+  padding: 14px 24px;
+  background: var(--pink);
+  border: 3px solid #a71965;
+  border-radius: 12px;
+  color: var(--card);
+  font-family: "audiowide", sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 var(--pink-dark);
+  transition: 0.15s;
+}
+
+.btn-save:hover {
+  background-color: var(--pink-dark);
+  box-shadow: 2px 2px 0 var(--purple);
+  color: var(--silver);
+}

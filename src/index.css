@@ -1,0 +1,35 @@
+:root {
+  --pink: #ff4fa3;
+  --baby-pink: #ffb6d9;
+  --pink-dark: #c21868;
+  --purple: #4b235a;
+  --purple-light: #c9a7ff;
+  --card: #fff5fa;
+  --text: #241522;
+  --silver: #d8d8e0;
+  --blue: #4c6fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: audiowide, sans-serif;
+  background-color: var(--pink-dark);
+  background-image: radial-gradient(
+    circle,
+    var(--pink) 0 11px,
+    transparent 12px
+  );
+  background-size: 30px 30px;
+}
+
+.program-window {
+  position: relative;
+  width: 443px;
+  min-height: 700px;
+  background-image: url("../img-todolist.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
